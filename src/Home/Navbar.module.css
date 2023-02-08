@@ -1,0 +1,32 @@
+.navBarOuter {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 12rem;
+}
+
+.logo {
+    height: 36px;
+}
+
+.navLinks {
+    margin-left: auto;
+    display: flex;
+}
+
+.navLinks li {
+    margin: 0 20px;
+}
+
+.navLinks li a {
+    color: white;
+    opacity: 70%;
+    font-size: 14px;
+    transition: all 300ms ease;
+}
+
+.navLinks li a:hover {
+    opacity: 100%;
+}
