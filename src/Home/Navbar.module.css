@@ -4,11 +4,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1.5rem 12rem;
+    padding: 2rem 10rem;
 }
 
 .logo {
-    height: 36px;
+    height: 32px;
 }
 
 .navLinks {
@@ -17,13 +17,12 @@
 }
 
 .navLinks li {
-    margin: 0 20px;
+    margin-left: 56px;
 }
 
 .navLinks li a {
     color: white;
     opacity: 70%;
-    font-size: 14px;
     transition: all 300ms ease;
 }
 

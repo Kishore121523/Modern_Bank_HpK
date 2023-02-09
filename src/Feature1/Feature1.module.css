@@ -1,7 +1,7 @@
 .outerDiv {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
-    background-color: black;
+    background-color: #00040F;
     display: flex;
     justify-content: center;
     align-items: center;

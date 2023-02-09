@@ -1,5 +1,132 @@
 .outerDiv {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-color: #00040F;
+}
+
+.heroOuter {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.heroLeft {
+    padding-left: 10rem;
+    padding-top: 4rem;
+}
+
+.heroLeftDiscount {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(180deg, #272727 0%, #0d0c16 50%, #000000 100%);
+    border-radius: 10px;
+    padding: 4px 12px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    width: fit-content;
+}
+
+.heroLeftDiscount img {
+    height: 32px;
+    margin-right: 8px;
+}
+
+.highlight {
+    opacity: 70%;
+}
+
+.heroLeftDiscount p {
+    text-transform: uppercase;
+    opacity: 100%;
+    font-size: 18px;
+}
+
+.heroLeftTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 72px;
+    font-weight: 600;
+}
+
+.secondLine {
+    background: radial-gradient( 64.18% 64.18% at 71.16% 35.69%, #def9fa 0.89%, #bef3f5 17.23%, #9dedf0 42.04%, #7de7eb 55.12%, #5ce1e6 71.54%, #33bbcf 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.thirdLine {
+    white-space: nowrap;
+}
+
+.heroLeftContent {
+    width: 75%;
+    margin-top: 2.5rem;
+    opacity: 70%;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 31px;
+}
+
+.heroRight {
+    margin: 1.5rem 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroRight img {
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.pinkGradient {
+    background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+    filter: blur(250px);
+    position: absolute;
+    top: 0;
+    width: 40%;
+    height: 35%;
+    z-index: 0;
+}
+
+.whiteGradient {
+    background: rgba(255, 255, 255, 0.6);
+    filter: blur(950px);
+    position: absolute;
+    bottom: 10rem;
+    width: 80%;
+    height: 80%;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.whiteGradient2 {
+    background: rgba(255, 255, 255, 0.6);
+    filter: blur(200px);
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 15%;
+    height: 70%;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.blueGradient {
+    background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+    filter: blur(80px);
+    position: absolute;
+    bottom: 10rem;
+    right: 10rem;
+    width: 50%;
+    height: 50%;
+    z-index: 0;
 }
