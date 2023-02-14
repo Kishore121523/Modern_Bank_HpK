@@ -28,6 +28,7 @@ select {
 
 body {
     background-color: #00040F;
+    overflow-x: hidden;
 }
 
 a {
