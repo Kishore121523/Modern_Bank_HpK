@@ -1,0 +1,50 @@
+.bottomTestimonials1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 5rem;
+    border-radius: 20px;
+    width: 33%;
+    padding: 60px 40px;
+    gap: 3rem;
+    transition: all 300ms ease;
+}
+
+.bottomTestimonials1:hover {
+    background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+    backdrop-filter: blur(5px);
+}
+
+.quotes {
+    height: 2rem;
+}
+
+.profilePic {
+    display: flex;
+    gap: 20px;
+}
+
+.testimonialText {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.pic {
+    height: 48px;
+}
+
+.profilePicContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.personName {
+    font-size: 20px;
+}
+
+.personJob {
+    opacity: 0.7;
+    font-size: 16px;
+}

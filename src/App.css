@@ -26,6 +26,10 @@ select {
     font: inherit;
 }
 
+body {
+    background-color: #00040F;
+}
+
 a {
     background-color: transparent;
     text-decoration: none;
